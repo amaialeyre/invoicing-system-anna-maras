@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Optional;
 import pl.futurecollars.invoicing.db.Database;
 import pl.futurecollars.invoicing.model.Invoice;
+
 public class InMemoryDatabase implements Database {
   private final Map<Integer, Invoice> invoices = new HashMap<>();
   private int nextId = 1;
