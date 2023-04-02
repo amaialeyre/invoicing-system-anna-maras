@@ -20,5 +20,6 @@ public class InvoiceEntry {
     this.price = price;
     this.vatValue = vatValue;
     this.vatRate = vatRate;
+
   }
 }
